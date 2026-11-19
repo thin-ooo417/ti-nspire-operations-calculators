@@ -1,0 +1,32 @@
+# Build output (make it again with: python scripts/build.py)
+/dist/
+/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local settings files (none are needed)
+.env
+.env.*
+
+# Documents and notes stay out of the repository
+*.pdf
+/private/
+
+# Calculator files are build output; only the test reference file is kept
+*.tns
+!/tests/fixtures/reference/*.tns

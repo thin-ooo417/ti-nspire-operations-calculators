@@ -1,0 +1,16 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["build", "tns_file", "des_cipher", "make_sheet_list", "conftest", "form_drivers", "calculator_mock", "reference_maths"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]   # the test files are mostly tables of cases

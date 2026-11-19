@@ -1,0 +1,13 @@
+# The build is byte-exact, so line endings must not change on checkout.
+* text=auto eol=lf
+
+*.lua  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.toml text eol=lf
+*.txt  text eol=lf
+
+# TI-Nspire documents are binary.
+*.tns binary
+*.zip binary
