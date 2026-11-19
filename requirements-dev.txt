@@ -3,4 +3,4 @@
 # `luac5.1` binary on the PATH.
 pytest>=8.0
 lupa>=2.2
-ruff>=0.6
+ruff>=0.17.5
