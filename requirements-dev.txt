@@ -2,5 +2,5 @@
 # Python itself plus one Lua 5.1 syntax checker: either `lupa` (below) or a
 # `luac5.1` binary on the PATH.
 pytest>=8.0
-lupa>=2.2
+lupa>=2.8
 ruff>=0.6
