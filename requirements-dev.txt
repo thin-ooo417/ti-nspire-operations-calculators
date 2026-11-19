@@ -1,6 +1,6 @@
 # Needed to run the tests and the linter. Building the .tns files needs only
 # Python itself plus one Lua 5.1 syntax checker: either `lupa` (below) or a
 # `luac5.1` binary on the PATH.
-pytest>=8.0
+pytest>=9.2.0
 lupa>=2.2
 ruff>=0.6
